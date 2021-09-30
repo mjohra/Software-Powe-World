@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Lobster&family=Open+Sans&family=Roboto&display=swap');
+.header-main{
+    background: linear-gradient(to right, #f5f3f14b, #8a88857a);
+    width:75%;
+    text-align:center;
+    margin:auto;
+    padding-top:5px;
+    padding-bottom:8px;
+    color:white;
+    border-radius: 10px;
+    
+
+}
+.header-main h1{
+    font-family: 'Lobster', cursive;
+    font-size:60px;
+    
+}
+
+.header-main h2{
+    font-family: 'Exo 2', sans-serif;
+    font-weight:bold;
+}
+.rainbow-text {
+   background-color: #CA4246;
+  
+  /* Create the gradient. */
+   background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #072a74 66.666%, 
+        #083188 83.333%, 
+        #A7489B 83.333%);
+  
+  background-size: 100%;
+  background-repeat: repeat;
+
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+
+  }
+  
+  .rainbow-text:hover {
+    animation: rainbow-text-animation 0.5s ease forwards;
+  }
+  
+  @keyframes rainbow-text-animation {
+    0% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    100% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+  }
+  
+  @keyframes rainbow-text-animation-rev {
+    0% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    100% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+  }

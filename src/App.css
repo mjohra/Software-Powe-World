@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Roboto&display=swap');
+.App{
+  background-image: url(./images/4.jpg);
+}
+.app-details{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
